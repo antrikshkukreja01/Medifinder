@@ -14,7 +14,7 @@ const Insurance = () => {
   return (
     <>
       <section className="py-5">
-        <Container>
+        <Container className="mb-5 mb-lg-0">
           <h2 className=" mb-4 ff_Inter fs_37 fw-semibold clr_Gray text-center">
             Insurance <span className="clr_Darkgreen">TPA's</span> That We
             Accept

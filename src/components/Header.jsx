@@ -23,9 +23,9 @@ import documents from "../assets/imgs/png/documents.png";
 const Header = () => {
   return (
     <>
-      <section className="py-5 min-vh-100 d-flex flex-column">
+      <section className="pb-5 pt-5 pt-xl-0 min-vh-100 d-flex flex-column">
         <Container className="flex-grow-1 d-flex align-items-center justify-content-center flex-column position-relative z-1">
-          <div className=" d-flex align-items-center justify-content-between w-100 mb-4">
+          <div className=" d-lg-flex align-items-center justify-content-between w-100 mb-4 d-none ">
             <a className=" d-flex align-items-center gap-1" href="#">
               <img className=" w_20" src={home} alt="home" />
               <p className=" ff_Inter fw-medium fs_18 clr_Gray mb-0">Home</p>
