@@ -59,7 +59,12 @@ const Header = () => {
               </p>
             </a>
           </div>
-          <div className="header_box">
+          <div
+            data-aos="zoom-in-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            className="header_box"
+          >
             <Row className=" flex-column-reverse flex-md-row">
               <Col
                 className=" d-flex flex-column align-items-center mt-5 mt-xl-0 "

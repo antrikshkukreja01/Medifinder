@@ -12,7 +12,15 @@ const ExperincedDoctors = () => {
             Meet Our <span className=" clr_Darkgreen">Experienced Doctors</span>
           </h2>
           <Row className=" d-none d-md-flex align-items-center justify-content-center">
-            <Col className=" mt-4 mt-lg-0" sm={6} md={4} lg={3}>
+            <Col
+              data-aos="fade-up-right"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              className=" mt-4 mt-lg-0"
+              sm={6}
+              md={4}
+              lg={3}
+            >
               <img className=" w-100 mb-2" src={Doctor} alt="Doctor" />
               <p className="mb-0 ff_Inter fs_24 fw-semibold clr_LightGray text-center">
                 Dr. Vinay Kumar
@@ -21,7 +29,15 @@ const ExperincedDoctors = () => {
                 M.D. D.M. Cardiology
               </p>
             </Col>
-            <Col className=" mt-4 mt-lg-0" sm={6} md={4} lg={3}>
+            <Col
+              data-aos="zoom-in-up"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              className=" mt-4 mt-lg-0"
+              sm={6}
+              md={4}
+              lg={3}
+            >
               <img className=" w-100 mb-2" src={Doctor} alt="Doctor" />
               <p className="mb-0 ff_Inter fs_24 fw-semibold clr_LightGray text-center">
                 Dr. Vinay Kumar
@@ -30,7 +46,15 @@ const ExperincedDoctors = () => {
                 M.D. D.M. Cardiology
               </p>
             </Col>
-            <Col className=" mt-4 mt-lg-0" sm={6} md={4} lg={3}>
+            <Col
+              data-aos="zoom-in-up"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              className=" mt-4 mt-lg-0"
+              sm={6}
+              md={4}
+              lg={3}
+            >
               <img className=" w-100 mb-2" src={Doctor} alt="Doctor" />
               <p className="mb-0 ff_Inter fs_24 fw-semibold clr_LightGray text-center">
                 Dr. Vinay Kumar
@@ -39,7 +63,15 @@ const ExperincedDoctors = () => {
                 M.D. D.M. Cardiology
               </p>
             </Col>
-            <Col className=" mt-4 mt-lg-0" sm={6} md={4} lg={3}>
+            <Col
+              data-aos="fade-up-left"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              className=" mt-4 mt-lg-0"
+              sm={6}
+              md={4}
+              lg={3}
+            >
               <img className=" w-100 mb-2" src={Doctor} alt="Doctor" />
               <p className="mb-0 ff_Inter fs_24 fw-semibold clr_LightGray text-center">
                 Dr. Vinay Kumar

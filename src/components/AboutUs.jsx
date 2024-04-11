@@ -17,7 +17,12 @@ const AboutUs = () => {
           <div className=" line mt-2">
             <div className="line2"></div>
           </div>
-          <div className="about_box mt-4">
+          <div
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            className="about_box mt-4"
+          >
             <p className=" mb-4 ff_Inter fw-bold fs_20 clr_Black2 ">
               About Kolmet Hospital
             </p>

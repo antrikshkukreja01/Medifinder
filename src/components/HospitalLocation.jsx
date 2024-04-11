@@ -16,7 +16,11 @@ const HospitalLocation = () => {
               Hospital Location{" "}
             </h2>
           </div>
-          <div>
+          <div
+            data-aos="zoom-in-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <iframe
               height={456}
               className="w-100 mb-5 mb-lg-0 "
@@ -28,7 +32,12 @@ const HospitalLocation = () => {
             ></iframe>
           </div>
           <Row className=" my-lg-5">
-            <Col lg={6}>
+            <Col
+              data-aos="zoom-out-right"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              lg={6}
+            >
               <div className="box">
                 <h3 className="mb-lg-4 mb-2 mt-2 ff_Inter fw-bold fs_20 clr_Gray text-capitalize text-center">
                   Specialities In Kolmet Hospital Central Delhi
@@ -239,7 +248,13 @@ const HospitalLocation = () => {
                 </Carousel>
               </div>
             </Col>
-            <Col className=" mt-4 mt-lg-0" lg={6}>
+            <Col
+              data-aos="zoom-out-left"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              className=" mt-4 mt-lg-0"
+              lg={6}
+            >
               <div className="box">
                 <h3 className="mb-lg-4 mb-2 mt-2 ff_Inter fw-bold fs_20 clr_Gray text-capitalize text-center">
                   Services Offered

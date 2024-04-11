@@ -12,8 +12,14 @@ const Footer = () => {
           </a>
           <Row className="mt-5  ">
             <Col lg={8}>
-              <Row className="">
-                <Col sm={6} md={4}>
+              <Row>
+                <Col
+                  data-aos="zoom-out-right"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                  sm={6}
+                  md={4}
+                >
                   <p className=" mb-3 ff_Heebo fw-medium fs_22 text-white">
                     Patients
                   </p>
@@ -53,7 +59,14 @@ const Footer = () => {
                     <p className="mb-0"> Lab Locator</p>
                   </a>
                 </Col>
-                <Col className="mt-4 mt-sm-0" sm={6} md={4}>
+                <Col
+                  data-aos="zoom-out-right"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                  className="mt-4 mt-sm-0"
+                  sm={6}
+                  md={4}
+                >
                   <p className=" mb-3 ff_Heebo fw-medium fs_22 text-white">
                     Partner with us
                   </p>
@@ -86,7 +99,14 @@ const Footer = () => {
                     <p className="mb-0"> Organise Camps </p>
                   </a>
                 </Col>
-                <Col className="mt-4 mt-md-0" sm={6} md={4}>
+                <Col
+                  data-aos="zoom-out-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                  className="mt-4 mt-md-0"
+                  sm={6}
+                  md={4}
+                >
                   <p className=" mb-3 ff_Heebo fw-medium fs_22 text-white">
                     Doctors
                   </p>
@@ -123,7 +143,12 @@ const Footer = () => {
             </Col>
             <Col className="mt-4 mt-lg-0" lg={4}>
               <Row>
-                <Col sm={6}>
+                <Col
+                  data-aos="zoom-out-left"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                  sm={6}
+                >
                   <p className=" mb-3 ff_Heebo fw-medium fs_22 text-white">
                     Company
                   </p>
@@ -177,7 +202,13 @@ const Footer = () => {
                     <p className="mb-0"> Disclosures</p>
                   </a>
                 </Col>
-                <Col sm={6}>
+                <Col
+                  className="mt-4 mt-sm-0"
+                  data-aos="zoom-out-left"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                  sm={6}
+                >
                   <p className=" mb-3 ff_Heebo fw-medium fs_22 text-white">
                     Contact Us
                   </p>

@@ -143,6 +143,8 @@
   width: 25px;
 }
 .signIn_btn {
+  display: flex;
+  justify-content: center;
   padding: 11px 39px 8px 40px;
   background: #ffb551;
   color: #292e31;
@@ -391,7 +393,81 @@ nav {
 .w_100 {
   width: 100% !important;
 }
+/* Preloder */
 
+#css3-spinner-svg-pulse-wrapper {
+  position: absolute;
+  overflow: hidden;
+  width: 260px;
+  height: 210px;
+  top: 50%;
+  left: 50%;
+  margin-top: -105px;
+  margin-left: -130px;
+  background-color: transparent;
+  animation: none;
+  -webkit-animation: none;
+}
+
+#css3-spinner-svg-pulse {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -105px;
+  margin-left: -275px;
+}
+
+#css3-spinner-pulse {
+  stroke-dasharray: 281;
+  -webkit-animation: dash 5s infinite linear forwards;
+}
+
+/*Animation*/
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset: 814;
+  }
+
+  to {
+    stroke-dashoffset: -814;
+  }
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 814;
+  }
+
+  to {
+    stroke-dashoffset: -814;
+  }
+}
+
+.bt_btn {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  background-color: #16c8ad;
+}
+.back_top {
+  animation-name: top;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transition: all ease-in-out 1s !important;
+  border: none !important;
+}
+
+@keyframes top {
+  0% {
+    transform: translateY(-20%);
+    transition: all ease-in-out 1s !important;
+  }
+  100% {
+    transform: translateY(30%);
+  }
+}
 @media (min-width: 576px) {
   .insurance_box {
     border: 1px solid #a49999;
