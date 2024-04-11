@@ -23,9 +23,9 @@ import documents from "../assets/imgs/png/documents.png";
 const Header = () => {
   return (
     <>
-      <section className="pb-5 pt-5 pt-xl-0 min-vh-100 d-flex flex-column">
+      <section className="pb-5 pt-5 pt-lg-0 min-vh- 100 d-flex flex-column">
         <Container className="flex-grow-1 d-flex align-items-center justify-content-center flex-column position-relative z-1">
-          <div className=" d-lg-flex align-items-center justify-content-between w-100 mb-4 d-none ">
+          <div className=" d-lg-flex align-items-center justify-content-between w-100 mb-4 mt-4 d-none ">
             <a className=" d-flex align-items-center gap-1" href="#">
               <img className=" w_20" src={home} alt="home" />
               <p className=" ff_Inter fw-medium fs_18 clr_Gray mb-0">Home</p>
@@ -60,14 +60,17 @@ const Header = () => {
             </a>
           </div>
           <div className="header_box">
-            <Row>
-              <Col xl={4}>
+            <Row className=" flex-column-reverse flex-md-row">
+              <Col
+                className=" d-flex flex-column align-items-center mt-5 mt-xl-0 "
+                xl={4}
+              >
                 <img
-                  className=" w-100 mb-3 mb-xl-5"
+                  className=" w_100 mb-3 mb-xl-5"
                   src={Hospital}
                   alt="Hospital_img"
                 />
-                <div className=" d-flex align-items-center justify-content-center gap-2">
+                <div className=" d-flex align-items-center mb-3 mb-sm-0 justify-content-center gap-2">
                   <a
                     className=" ff_Inter fw-bold fs_14 Book_btn text-capitalize"
                     href="#"
@@ -84,18 +87,18 @@ const Header = () => {
                   </a>
                 </div>
               </Col>
-              <Col className="mt-5 mt-xl-0" xl={8}>
+              <Col className=" mt-md-5 mt-xl-0" xl={8}>
                 <div className=" d-flex align-items-center justify-content-between mb-3">
                   <h2 className=" ff_Inter fw-semibold fs_24 clr_Gray">
                     Kolmet Hospital - Karol Bagh, Central Delhi
                   </h2>
-                  <a className="me-5" href="#">
+                  <a className="me-sm-5" href="#">
                     <img className="w_30" src={share} alt="share" />
                   </a>
                 </div>
-                <Row className="enquiry_box align-items-center">
-                  <Col className="ps_40" sm={7}>
-                    <div className=" d-flex align-items-center  gap_34 mb-4 ">
+                <Row className="enquiry_box align-items-center pb-4 pb-md-0 ">
+                  <Col className="ps_40 mt-4 mt-md-0" md={7}>
+                    <div className=" d-flex align-items-center justify-content-center   gap_34 mb-4 ">
                       <span className="small_box d-flex align-items-center gap-3">
                         <img className=" w_30" src={bed} alt="bed" />
                         <p className="mb-0 ff_Inter fw-medium fs_16 clr_Gray">
@@ -108,13 +111,19 @@ const Header = () => {
                           25
                         </p>
                       </span>
-                      <span className="small_box d-flex align-items-center gap-3">
+                      <span className="small_box d-sm-flex align-items-center d-none gap-3">
                         <img className=" w_30" src={icu} alt="icu" />
                         <p className="mb-0 ff_Inter fw-medium fs_16 clr_Gray">
                           25
                         </p>
                       </span>
                     </div>
+                    <span className="small_box d-flex align-items-center justify-content-center mx-auto w-50 d-sm-none gap-3">
+                      <img className=" w_30" src={icu} alt="icu" />
+                      <p className="mb-0 ff_Inter fw-medium fs_16 clr_Gray">
+                        25
+                      </p>
+                    </span>
                     <span className=" mt-3 d-flex align-items-center gap-3">
                       <img className="w_30" src={clock} alt="clock" />
                       <p className=" mb-0 ff_Inter fw-medium fs_16 clr_Gray">
@@ -156,7 +165,7 @@ const Header = () => {
                       </p>
                     </span>
                   </Col>
-                  <Col className="pe-0" sm={5}>
+                  <Col className="pe-md-0 mt-4 mt-md-0" md={5}>
                     <div className=" bg-white">
                       <span className="heading py-3 d-flex align-items-center justify-content-center ">
                         <h3 className=" ff_Inter fw-bold fs_14 text-white ">
@@ -166,7 +175,7 @@ const Header = () => {
                       <div className=" d-flex justify-content-center pt-2">
                         <img className="w_img" src={img_header} alt="img" />
                       </div>
-                      <div className=" px-4 mx-3 mt-4">
+                      <div className=" px-sm-4 mx-3 mt-4">
                         <span className=" mt-3">
                           <p className=" mb-1 ff_Inter fw-light fs_12 clr_LightGray2">
                             Full Name

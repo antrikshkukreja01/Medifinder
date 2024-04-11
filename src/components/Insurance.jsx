@@ -9,6 +9,7 @@ import insurance6 from "../assets/imgs/webp/Insurance6.webp";
 import insurance7 from "../assets/imgs/webp/Insurance7.webp";
 import insurance8 from "../assets/imgs/webp/Insurance8.webp";
 import insurance9 from "../assets/imgs/webp/Insurance9.webp";
+import Carousel from "react-bootstrap/Carousel";
 
 const Insurance = () => {
   return (
@@ -163,7 +164,90 @@ const Insurance = () => {
             </div>
           </div>
           <div className="insurance_box d-lg-none">
-            <Row className=" justify-content-center mt-sm-4">
+            <Carousel className="d-md-none ">
+              <Carousel.Item>
+                <a href="#">
+                  <img
+                    className="img_width"
+                    src={insurance1}
+                    alt="insurance_img"
+                  />
+                </a>
+              </Carousel.Item>
+              <Carousel.Item>
+                <a href="#">
+                  <img
+                    className="img_width"
+                    src={insurance2}
+                    alt="insurance_img"
+                  />
+                </a>
+              </Carousel.Item>
+              <Carousel.Item>
+                <a href="#">
+                  <img
+                    className="img_width"
+                    src={insurance3}
+                    alt="insurance_img"
+                  />
+                </a>
+              </Carousel.Item>
+              <Carousel.Item>
+                <a href="#">
+                  <img
+                    className="img_width"
+                    src={insurance4}
+                    alt="insurance_img"
+                  />
+                </a>
+              </Carousel.Item>
+              <Carousel.Item>
+                <a href="#">
+                  <img
+                    className="img_width"
+                    src={insurance5}
+                    alt="insurance_img"
+                  />
+                </a>
+              </Carousel.Item>
+              <Carousel.Item>
+                <a href="#">
+                  <img
+                    className="img_width"
+                    src={insurance6}
+                    alt="insurance_img"
+                  />
+                </a>
+              </Carousel.Item>
+              <Carousel.Item>
+                <a href="#">
+                  <img
+                    className="img_width"
+                    src={insurance7}
+                    alt="insurance_img"
+                  />
+                </a>
+              </Carousel.Item>
+              <Carousel.Item>
+                <a href="#">
+                  <img
+                    className="img_width"
+                    src={insurance8}
+                    alt="insurance_img"
+                  />
+                </a>
+              </Carousel.Item>
+              <Carousel.Item>
+                <a href="#">
+                  <img
+                    className="img_width"
+                    src={insurance9}
+                    alt="insurance_img"
+                  />
+                </a>
+              </Carousel.Item>
+            </Carousel>
+            <Row className=" justify-content-center mt-sm-4 d-lg-flex d-none">
               <Col className=" mt-sm-4" sm={4} md={3}>
                 <a href="#">
                   <img
@@ -210,7 +294,7 @@ const Insurance = () => {
                 </a>
               </Col>
             </Row>
-            <Row className=" justify-content-center mt-4">
+            <Row className=" justify-content-center mt-4 d-lg-flex d-none">
               <Col className=" mt-4" sm={4} md={3}>
                 <a href="#">
                   <img
@@ -257,7 +341,7 @@ const Insurance = () => {
                 </a>
               </Col>
             </Row>
-            <Row className=" justify-content-center mt-4">
+            <Row className=" justify-content-center mt-4 d-lg-flex d-none">
               <Col className=" mt-4" sm={4} md={3}>
                 <a href="#">
                   <img
